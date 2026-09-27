@@ -15,6 +15,50 @@ An arg inspired puzzle, alien-y sci-fi themed reverse geocache box, meaning the 
 ## PCB Stuff 💻
 Awaiting orders
 
+## Components List
++ Microcontroller & Wireless Modules
+  - ESP32-S3-WROOM (Main MCU with Wi-fi & Bluetooth)
+  - NEO-6M GPS Receiver Module
+
++ Power Management & Charging
+  - TPS63020DSJR (High-Efficiency Buck-Boost DC-DC Converter)
+  - AMS1117-3.3 (3.3V Low Dropout Linear Voltage Regulator - SOT-223)
+  - MCP73871-2CC (LiPo / Li-Ion Battery Charge & System Power Path Management IC)
+
++ Display, Interface & Actuator
+  - HS280S010B (2.8' SPI TFT LCD Screen)
+  - Motor_Servo
+  - SW_Push
+  - LEDs (0603 SMD Status LEDs) x3
+
++ Connectors
+  - USB-C Receptacle (16-Pin USB 2.0 Port for power/flashing)
+  - U.FL Antenna Connector (IPEX/U.FL coaxial connector for GPS antenna)
+  - Conn_01x02 (2-Pin 2.54mm Header for battery connection)
+
++ Inductors
+  - 1µH Power Inductor (SMD ANR4030)
+
++ Capacitors
+  - 470µF Tantalum Capacitor (EIA-7343 / Case E)
+  - 22µF Ceramic Capacitors (0603 SMD) x5
+  - 10µF Ceramic Capacitors (0603 SMOD) x3
+  - 1µF Ceramic Capacitor (0603 SMD)
+  - 0.1µF (100nF) Ceramic Capacitors (0402 SMD) x2
+  - 100nF Ceramic Capacitor (0402 SMD)
+  - 10pF Ceramic Capacitor (0402 SMD)
+
++ Resistors
+  - 1.6MΩ Resistor (0603 SMD)
+  - 1MΩ Resistor (0603 SMD)
+  - 180kΩ Resistor (0603 SMD)
+  - 39kΩ Resistor (0603 SMD)
+  - 10kΩ Resistors (0603 SMD) x2
+  - 5.1kΩ Resistors (0603 SMD - USB-C CC Pull-downs) x2
+  - 2kΩ Resistor (0603 SMD)
+  - 470Ω Resistors (0402 SMD - Current-limiting for LEDs) x3
+  - 0Ω Jumper Resistor (0402 SMD)
+
 ## BOM 💹
 | Reference          | Qty | Value                         | DNP | Exclude from BOM | Exclude from Board | Footprint                                                                                  | Datasheet                                                                                            |
 | ------------------ | --- | ----------------------------- | --- | ---------------- | ------------------ | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |

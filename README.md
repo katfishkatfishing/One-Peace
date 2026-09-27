@@ -8,12 +8,19 @@ An arg inspired puzzle, alien-y sci-fi themed reverse geocache box, meaning the 
 
 ### Key Features 🗝️
 + GPS Tracking
-  - GPS Receiver Module
+  - GPS Receiver Module: An internal GPS receiver (NEO-6M) reads satellite NMEA signals to calculate latitude, longitude and altitude.
+  - Geofencing & Distance logic: The internal microcontroller runs algorithms to calculate the distance between the box's current coordinates and the pre-programmed target coordinates.
+  - Proximity Threshold: The box considers the destination "reached" once it is within a designated radius.
+
 + Locking Mechanism
+  - Electronic Lock: A motorized latch-typically driven by a micro servo motor that secures the lid mechanism.
+  - No External Keyholes: The exterior lacks traditional physical keyholes or manual padlocks (duh) to prevent brute-force opening without solving the puzzles.
+  - Fail-Safe: In case battery dies or satellite signals drop permanently.
+  
 + ARG Puzzle - Clues that lead to more clues that lead to the final destination — the "One Peace"
 
 ## PCB Stuff 💻
-Awaiting orders
+_WIP_
 
 ## Components List
 + Microcontroller & Wireless Modules
@@ -27,8 +34,8 @@ Awaiting orders
 
 + Display, Interface & Actuator
   - HS280S010B (2.8' SPI TFT LCD Screen)
-  - Motor_Servo
-  - SW_Push
+  - Motor_Servo (3-Pin Header for Servo Motor / Solenoid control)
+  - SW_Push (SMD Push Button Switch - B3U-1000P)
   - LEDs (0603 SMD Status LEDs) x3
 
 + Connectors

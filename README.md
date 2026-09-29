@@ -18,7 +18,6 @@ An arg inspired puzzle, alien-y sci-fi themed reverse geocache box, meaning the 
 + Locking Mechanism
   - Electronic Lock: A motorized latch-typically driven by a micro servo motor that secures the lid mechanism.
   - No External Keyholes: The exterior lacks traditional physical keyholes or manual padlocks (duh) to prevent brute-force opening without solving the puzzles.
-  - Fail-Safe: In case battery dies or satellite signals drop permanently.
   
 + ARG Puzzle - Clues that lead to more clues that lead to the final destination — the "One Peace"
 

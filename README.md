@@ -7,26 +7,76 @@ ARG GitHub here:
 [https://github.com/katfishkatfishing/Eye-of-God](https://github.com/katfishkatfishing/Eye-of-God)
 
 ## 💠 Project Overview 💠
-An arg inspired puzzle, alien-y sci-fi themed reverse geocache box, meaning the user has to solve a series of puzzles to obtain the coordinates required for the box. Then guy has to bring it there and (hopefully) the box will open.
+An arg inspired puzzle, alien-y sci-fi themed reverse geocache box.  
+"What's a reverse geocache box?" you might ask.  
+To put it short, it's a box that only opens at a specific place; and for our box, we designed a puzzle for people to solve them to get the coordinates and then bring the box to the said coordinates and the box opens.
 
-### Key Features 🗝️
-+ GPS Tracking
-  - GPS Receiver Module: An internal GPS receiver (NEO-6M) reads satellite NMEA signals to calculate latitude, longitude and altitude.
-  - Geofencing & Distance logic: The internal microcontroller runs algorithms to calculate the distance between the box's current coordinates and the pre-programmed target coordinates.
-  - Proximity Threshold: The box considers the destination "reached" once it is within a designated radius.
+### Key Features of Box 🗝️
+<ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px;">
+  <p style="margin-bottom: 5px;">
+    ⚫ <b>GPS Tracking</b>
+    <ul style="padding-left: 45px">
+      <p style="text-indent: -24px; margin-bottom: 5px">
+        ⚪ <b>GPS Receiver Module:</b> An internal GPS receiver (NEO-6M) reads satellite signals to calculate latitude, longitude and altitude.</p>
+      <p style="text-indent: -24px; margin-bottom: 5px">
+        ⚪ <b>Geofencing & Distance Logic:</b> The internal microcontroller runs algorithms to calculate the distance between the box's current coordinates and the pre-programmed target coordinates.</p>
+      <p style="text-indent: -24px; margin-bottom: 20px">
+        ⚪ <b>Proximity Threshold:</b> The box considers the destination "reached" once it is within a designated radius.</p>
+    </ul>
+  </p>
+</ul>
+<ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px;">
+  <p style="margin-bottom: 5px;">
+    ⚫ <b>Locking Mechanism</b>
+    <ul style="padding-left: 45px">
+      <p style="text-indent: -24px; margin-bottom: 5px">
+        ⚪ <b>Electronic Lock:</b> A motorized latch, driven by a micro servo motor that secures the lid mechanism.</p>
+      <p style="text-indent: -24px; margin-bottom: 20px">
+        ⚪ <b>No External Keyholes:</b> The exterior lacks those traditional physical keyholes or manual padlocks.</p>
+    </ul>
+  </p>
+</ul>
+<ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px;">
+  <p style="margin-bottom: 5px;">
+    ⚫ <b>ARG Puzzle</b>
+    <ul style="padding-left: 45px">
+      <p style="text-indent: -24px; margin-bottom: 5px">
+        ⚪ <b>Puzzles!:</b> Clues that lead to more clues that lead to the final destination — to witnesss the <i><b>"One Peace"</b></i></p>
+    </ul>
+  </p>
+</ul>
 
-+ Locking Mechanism
-  - Electronic Lock: A motorized latch-typically driven by a micro servo motor that secures the lid mechanism.
-  - No External Keyholes: The exterior lacks traditional physical keyholes or manual padlocks (duh) to prevent brute-force opening without solving the puzzles.
-  
-+ ARG Puzzle - Clues that lead to more clues that lead to the final destination — the "One Peace"
+## PCB Architecting 💻
+Let's take a look at what was made inside!
+<table>
+  <tr>
+    <td align="center">
+      Schematic<br>
+      <img width="400" alt="Schematic" src="Images/OnePeace Schematic.png"><br>
+    </td>
+    <td align="center">
+      PCB Routing<br>
+      <img width="400" alt="PCB Trace Routing" src="Images/OnePeace PCB Trace Routing.png"><br>
+    </td>
+  </tr>
+</table>
 
-## PCB Stuff 💻
-_WIP_
+Now, let's take a look outside!
+<table>
+  <tr>
+    <td align="center">
+      <img width="400" alt="Pov1" src="Images/OnePeace 3D Model_1.png"><br>
+    </td>
+    <td align="center">
+      <img width="400" alt="Pov2" src="Images/OnePeace 3D Model_2.png"><br>
+    </td>
+  </tr>
+</table>
+
 
 ## Components List
 + Microcontroller & Wireless Modules
-  - ESP32-S3-WROOM (Main MCU with Wi-fi & Bluetooth)
+  - ESP32-S31-WROOM (Main MCU with Wi-fi & Bluetooth)
   - NEO-6M GPS Receiver Module
 
 + Power Management & Charging

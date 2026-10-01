@@ -10,3 +10,5 @@ A little more help from Gemini to get data for the pcb data to calculate width o
 26-Sep-2026
 Realized that the component i use couldn't supply enough power so had to change it out and add extra component for 5V(for the servo motor) and 3.3V(everything else). So had the change the schematic and slightly redo all the PCB arrangement. It wasn't too hard but the thicc trace is kinda a little too chonky. Finished the PCB part.
 
+27-Sep-2026
+Speedrunning making the case for the pcb with batteries and also the case for the treasure with the door that is open/close by a servo. It was 3am already aaaaaaaaaaa.

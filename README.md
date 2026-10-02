@@ -11,9 +11,9 @@ An arg inspired puzzle, alien-y sci-fi themed reverse geocache box.
 "What's a reverse geocache box?" you might ask.  
 To put it short, it's a box that only opens at a specific place; and for our box, we designed a puzzle for people to solve them to get the coordinates and then bring the box to the said coordinates and the box opens.
 
-### Key Features of Box 🗝️
-<ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px;">
-  <p style="margin-bottom: 5px;">
+### <ins>Key Features of Box</ins> 🗝️
+<ul style="margin-top: -5px; margin-bottom: 0; padding-left: 10px">
+  <p style="margin-bottom: 5px">
     ⚫ <b>GPS Tracking</b>
     <ul style="padding-left: 45px">
       <p style="text-indent: -24px; margin-bottom: 5px">
@@ -25,8 +25,8 @@ To put it short, it's a box that only opens at a specific place; and for our box
     </ul>
   </p>
 </ul>
-<ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px;">
-  <p style="margin-bottom: 5px;">
+<ul style="margin-top: 0; margin-bottom: 0; padding-left: 10px">
+  <p style="margin-bottom: 5px">
     ⚫ <b>Locking Mechanism</b>
     <ul style="padding-left: 45px">
       <p style="text-indent: -24px; margin-bottom: 5px">
@@ -36,8 +36,8 @@ To put it short, it's a box that only opens at a specific place; and for our box
     </ul>
   </p>
 </ul>
-<ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px;">
-  <p style="margin-bottom: 5px;">
+<ul style="margin-top: 0; margin-bottom: 0; padding-left: 10px">
+  <p style="margin-bottom: 5px">
     ⚫ <b>ARG Puzzle</b>
     <ul style="padding-left: 45px">
       <p style="text-indent: -24px; margin-bottom: 5px">
@@ -75,48 +75,113 @@ Now, let's take a look outside!
 
 
 ## Components List
-+ Microcontroller & Wireless Modules
-  - ESP32-S31-WROOM (Main MCU with Wi-fi & Bluetooth)
-  - NEO-6M GPS Receiver Module
-
-+ Power Management & Charging
-  - TPS63020DSJR (High-Efficiency Buck-Boost DC-DC Converter)
-  - AMS1117-3.3 (3.3V Low Dropout Linear Voltage Regulator - SOT-223)
-  - MCP73871-2CC (LiPo / Li-Ion Battery Charge & System Power Path Management IC)
-
-+ Display, Interface & Actuator
-  - HS280S010B (2.8' SPI TFT LCD Screen)
-  - Motor_Servo (3-Pin Header for Servo Motor / Solenoid control)
-  - SW_Push (SMD Push Button Switch - B3U-1000P)
-  - LEDs (0603 SMD Status LEDs) x3
-
-+ Connectors
-  - USB-C Receptacle (16-Pin USB 2.0 Port for power/flashing)
-  - U.FL Antenna Connector (IPEX/U.FL coaxial connector for GPS antenna)
-  - Conn_01x02 (2-Pin 2.54mm Header for battery connection)
-
-+ Inductors
-  - 1µH Power Inductor (SMD ANR4030)
-
-+ Capacitors
-  - 470µF Tantalum Capacitor (EIA-7343 / Case E)
-  - 22µF Ceramic Capacitors (0603 SMD) x5
-  - 10µF Ceramic Capacitors (0603 SMOD) x3
-  - 1µF Ceramic Capacitor (0603 SMD)
-  - 0.1µF (100nF) Ceramic Capacitors (0402 SMD) x2
-  - 100nF Ceramic Capacitor (0402 SMD)
-  - 10pF Ceramic Capacitor (0402 SMD)
-
-+ Resistors
-  - 1.6MΩ Resistor (0603 SMD)
-  - 1MΩ Resistor (0603 SMD)
-  - 180kΩ Resistor (0603 SMD)
-  - 39kΩ Resistor (0603 SMD)
-  - 10kΩ Resistors (0603 SMD) x2
-  - 5.1kΩ Resistors (0603 SMD - USB-C CC Pull-downs) x2
-  - 2kΩ Resistor (0603 SMD)
-  - 470Ω Resistors (0402 SMD - Current-limiting for LEDs) x3
-  - 0Ω Jumper Resistor (0402 SMD)
+<ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 20px;">
+  <li style="margin-bottom: 10px">
+    <b>Microcontroller & Wireless Modules</b>
+    <ul style="padding-left: 20px">
+      <li style="margin-bottom: 2px">
+        ESP32-S31-WROOM (Main MCU with Wi-fi & Bluetooth)</li>
+      <li style="margin-bottom: 2px">
+        NEO-6M GPS Receiver Module</li>
+    </ul>
+  </li>
+</ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 20px;">
+  <li style="margin-bottom: 10px">
+    <b>Power Management & Charging</b>
+    <ul style="padding-left: 20px">
+      <li style="margin-bottom: 2px">
+        TPS63020DSJR (High-Efficiency Buck-Boost DC-DC Converter)</li>
+      <li style="margin-bottom: 2px">
+        AMS1117-3.3 (3.3V Low Dropout Linear Voltage Regulator - SOT-223)</li>
+      <li style="margin-bottom: 2px">
+        MCP73871-2CC (LiPo / Li-Ion Battery Charge & System Power Path Management IC)</li>
+    </ul>
+  </li>
+</ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 20px;">
+  <li style="margin-bottom: 10px">
+    <b>Display, Interface & Actuator</b>
+    <ul style="padding-left: 20px">
+      <li style="margin-bottom: 2px">
+        HS280S010B (2.8' SPI TFT LCD Screen)</li>
+      <li style="margin-bottom: 2px">
+        Motor_Servo (3-Pin Header for Servo Motor / Solenoid control)</li>
+      <li style="margin-bottom: 2px">
+        SW_Push (SMD Push Button Switch - B3U-1000P)</li>
+      <li style="margin-bottom: 2px">
+        LEDs (0603 SMD Status LEDs) x3</li>
+    </ul>
+  </li>
+</ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 20px;">
+  <li style="margin-bottom: 10px">
+    <b>Connectors</b>
+    <ul style="padding-left: 20px">
+      <li style="margin-bottom: 2px">
+        USB-C Receptacle (16-Pin USB 2.0 Port for power/flashing)</li>
+      <li style="margin-bottom: 2px">
+        U.FL Antenna Connector (IPEX/U.FL coaxial connector for GPS antenna)</li>
+      <li style="margin-bottom: 2px">
+        Conn_01x02 (2-Pin 2.54mm Header for battery connection)</li>
+    </ul>
+  </li>
+</ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 20px;">
+  <li style="margin-bottom: 10px">
+    <b>Inductors</b>
+    <ul style="padding-left: 20px">
+      <li style="margin-bottom: 2px">
+        1µH Power Inductor (SMD ANR4030)</li>
+    </ul>
+  </li>
+</ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 20px;">
+  <li style="margin-bottom: 10px">
+    <b>Capacitors</b>
+    <ul style="padding-left: 20px">
+      <li style="margin-bottom: 2px">
+        470µF Tantalum Capacitor (EIA-7343 / Case E)</li>
+      <li style="margin-bottom: 2px">
+        22µF Ceramic Capacitors (0603 SMD) x5</li>
+      <li style="margin-bottom: 2px">
+        10µF Ceramic Capacitors (0603 SMOD) x3</li>
+      <li style="margin-bottom: 2px">
+        1µF Ceramic Capacitor (0603 SMD)</li>
+      <li style="margin-bottom: 2px">
+        0.1µF (100nF) Ceramic Capacitors (0402 SMD) x2</li>
+      <li style="margin-bottom: 2px">
+        100nF Ceramic Capacitor (0402 SMD)</li>
+      <li style="margin-bottom: 2px">
+        10pF Ceramic Capacitor (0402 SMD)</li>
+    </ul>
+  </li>
+</ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 20px;">
+  <li style="margin-bottom: 10px">
+    <b>Resistors</b>
+    <ul style="padding-left: 20px">
+      <li style="margin-bottom: 2px">
+        1.6MΩ Resistor (0603 SMD)</li>
+      <li style="margin-bottom: 2px">
+        1MΩ Resistor (0603 SMD)</li>
+      <li style="margin-bottom: 2px">
+        180kΩ Resistor (0603 SMD)</li>
+      <li style="margin-bottom: 2px">
+        39kΩ Resistor (0603 SMD)</li>
+      <li style="margin-bottom: 2px">
+        10kΩ Resistors (0603 SMD) x2</li>
+      <li style="margin-bottom: 2px">
+        5.1kΩ Resistors (0603 SMD - USB-C CC Pull-downs) x2</li>
+      <li style="margin-bottom: 2px">
+        2kΩ Resistor (0603 SMD)</li>
+      <li style="margin-bottom: 2px">
+        470Ω Resistors (0402 SMD - Current-limiting for LEDs) x3</li>
+      <li style="margin-bottom: 2px">
+        0Ω Jumper Resistor (0402 SMD)</li>
+    </ul>
+  </li>
+</ul>
 
 ## BOM 💹
 | Reference          | Qty | Value                         | DNP | Exclude from BOM | Exclude from Board | Footprint                                                                                  | Datasheet                                                                                            |

@@ -6,12 +6,13 @@ A locked box that refuses to open until brought to a specific geographic coordin
 ARG GitHub here:
 [https://github.com/katfishkatfishing/Eye-of-God](https://github.com/katfishkatfishing/Eye-of-God)
 
-## 💠 Project Overview 💠
-An arg inspired puzzle, alien-y sci-fi themed reverse geocache box.  
+## Overview
+An arg inspired puzzle, alien-y sci-fi themed reverse geocache box.
+The ARG itself is cosmic horror themed.
 "What's a reverse geocache box?" you might ask.  
-To put it short, it's a box that only opens at a specific place; and for our box, we designed a puzzle for people to solve them to get the coordinates and then bring the box to the said coordinates and the box opens.
+To put it short, it's a box that only opens if you bring it to the specific coordinates (approximately).
 
-### <ins>Key Features of Box</ins> 🗝️
+### <ins>The Box</ins>
 <ul style="margin-top: -5px; margin-bottom: 0; padding-left: 10px">
   <p style="margin-bottom: 5px">
     ⚫ <b>GPS Tracking</b>
@@ -46,8 +47,8 @@ To put it short, it's a box that only opens at a specific place; and for our box
   </p>
 </ul>
 
-## PCB Architecting 💻
-Let's take a look at what was made inside!
+## PCB
+Let's take a look at what is inside!
 <table>
   <tr>
     <td align="center">

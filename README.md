@@ -7,9 +7,8 @@ ARG GitHub here:
 [https://github.com/katfishkatfishing/Eye-of-God](https://github.com/katfishkatfishing/Eye-of-God)
 
 ## Overview
-An arg inspired puzzle, alien-y sci-fi themed reverse geocache box.
+An arg inspired puzzle, alien-y sci-fi themed reverse geocache box. At first we started with the theme of treasure, then thought of geocaches. But those were already a thing, and we wanted our project to be unique so we did this reverse geocache, where you bring the box to the place then only it opens.
 The ARG itself is cosmic horror themed.
-"What's a reverse geocache box?" you might ask.  
 To put it short, it's a box that only opens if you bring it to the specific coordinates (approximately).
 
 ### <ins>The Box</ins>

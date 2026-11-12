@@ -15,34 +15,32 @@ To put it short, it's a box that only opens if you bring it to the specific coor
 ### <ins>The Box</ins>
 <ul style="margin-top: -5px; margin-bottom: 0; padding-left: 10px">
   <p style="margin-bottom: 5px">
-    ⚫ <b>GPS Tracking</b>
+    <b>GPS Tracking</b>
     <ul style="padding-left: 45px">
       <p style="text-indent: -24px; margin-bottom: 5px">
-        ⚪ <b>GPS Receiver Module:</b> An internal GPS receiver (NEO-6M) reads satellite signals to calculate latitude, longitude and altitude.</p>
+        <b>GPS Receiver Module:</b> An internal GPS receiver reads satellite signals to calculate latitude, longitude and keep track of its current location.</p>
       <p style="text-indent: -24px; margin-bottom: 5px">
-        ⚪ <b>Geofencing & Distance Logic:</b> The internal microcontroller runs algorithms to calculate the distance between the box's current coordinates and the pre-programmed target coordinates.</p>
+        <b>Geofencing & Distance Logic:</b> The internal microcontroller runs algorithms to calculate the distance between the box's current coordinates and the pre-programmed target coordinates.</p>
       <p style="text-indent: -24px; margin-bottom: 20px">
-        ⚪ <b>Proximity Threshold:</b> The box considers the destination "reached" once it is within a designated radius.</p>
+        <b>Proximity Threshold:</b> The box opens once it is within a designated radius.</p>
     </ul>
   </p>
 </ul>
 <ul style="margin-top: 0; margin-bottom: 0; padding-left: 10px">
   <p style="margin-bottom: 5px">
-    ⚫ <b>Locking Mechanism</b>
+    <b>Locking Mechanism</b>
     <ul style="padding-left: 45px">
       <p style="text-indent: -24px; margin-bottom: 5px">
-        ⚪ <b>Electronic Lock:</b> A motorized latch, driven by a micro servo motor that secures the lid mechanism.</p>
-      <p style="text-indent: -24px; margin-bottom: 20px">
-        ⚪ <b>No External Keyholes:</b> The exterior lacks those traditional physical keyholes or manual padlocks.</p>
+        <b>Electronic Lock:</b> A motorized latch, driven by a micro servo motor that secures the lid mechanism.</p>
     </ul>
   </p>
 </ul>
 <ul style="margin-top: 0; margin-bottom: 0; padding-left: 10px">
   <p style="margin-bottom: 5px">
-    ⚫ <b>ARG Puzzle</b>
+    <b>ARG Puzzle</b>
     <ul style="padding-left: 45px">
       <p style="text-indent: -24px; margin-bottom: 5px">
-        ⚪ <b>Puzzles!:</b> Clues that lead to more clues that lead to the final destination — to witnesss the <i><b>"One Peace"</b></i></p>
+        <b>Puzzles!:</b> Clues that lead to more clues that lead to the destination, to witness the <i><b>"One Peace"</b></i> <i>(ps. the puzzles are ciphers)<i></p>
     </ul>
   </p>
 </ul>
